@@ -1,0 +1,17 @@
+Tue May 10 22:15:19 2022: build-wrapper, version 6.33 (win-x86-64)
+Tue May 10 22:15:19 2022: isWow64: 0
+Tue May 10 22:15:19 2022: windows version: 6.2, service pack: 0.0, build number: 9200, product type: 1
+Tue May 10 22:15:19 2022: current directory: D:\VScode\pruebas\design---observer-friends
+Tue May 10 22:15:19 2022: cwd: <D:\VScode\pruebas\design---observer-friends>
+Tue May 10 22:15:19 2022: out-dir absolute path: <D:\VScode\pruebas\design---observer-friends\bw-output>
+Tue May 10 22:15:19 2022: command line received: <main.exe>
+Tue May 10 22:15:19 2022: initializing json file
+Tue May 10 22:15:19 2022: starting debug cycle
+Tue May 10 22:15:19 2022: process created with pid: 16024
+Tue May 10 22:15:19 2022: image path name: <D:\VScode\pruebas\design---observer-friends\main.exe>
+Tue May 10 22:15:19 2022: command line: <main.exe>
+Tue May 10 22:15:19 2022: working directory: <D:\VScode\pruebas\design---observer-friends\>
+Tue May 10 22:15:19 2022: isWow64: 1
+Tue May 10 22:15:19 2022: skipping process D:\VScode\pruebas\design---observer-friends\main.exe with pid: 16024
+Tue May 10 22:15:19 2022: process with pid 16024 exit with code: 0 (0x0)
+Tue May 10 22:15:19 2022: finalizing json file
