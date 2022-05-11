@@ -12,7 +12,7 @@ class displayDevice{
 			activate = false;
 		}
 		void update(){
-			cout<<"se ha modificado el valor";
+			cout<<"se ha modificado el valor"<<endl;
 		}
 		virtual void stateObs() = 0;
 		string getName(){
@@ -36,7 +36,6 @@ class currentCondition:public displayDevice{
 		currentCondition():displayDevice(){
 			name = "currentCondition";
 		}
-		currentCondition();
 		void stateObs() override{
 			activate = true;
 			cout<<"Hello, I am a Current Codtition"<<endl;
@@ -48,7 +47,6 @@ class statistics:public displayDevice{
 		statistics():displayDevice(){
 			name = "statistics";
 		}
-		statistics();
 		void stateObs() override{
 			activate = true;
 			cout<<"Hello, I am Statistics"<<endl;
@@ -59,7 +57,6 @@ class weatherStation{
 	private:
 		vector<displayDevice*>* sensors;
 	public:
-		weatherStation();
 		weatherStation(vector<displayDevice*>* _sensors){
 			sensors = _sensors;
 		}
